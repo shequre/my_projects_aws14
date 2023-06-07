@@ -8,7 +8,7 @@ app = Flask(__name__)
 # and assign route of no path ('/')
 @app.route("/")
 def home():
-    return 'This is home page for no path, <h1> Welcome Home</h1>' 
+    return 'This is home page for no path, <h1>napiyrsiniz namissizlar</h1>' 
 
 
 
@@ -94,5 +94,5 @@ def evens():
 
 # Add a statement to run the Flask application which can be reached from any host on port 80.
 if __name__== "__main__":
-    app.run(debug=True)
-    # app.run(host='0.0.0.0', port=80)
+    # app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)
